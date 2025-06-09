@@ -86,7 +86,29 @@
             </div>
         </div>
     </div>
-
+    <audio id="bg-music" src="happy-birthday.mp3" preload="auto"></audio>
+    <script>
+        window.addEventListener('DOMContentLoaded', function () {
+          const music = document.getElementById("bg-music");
+      
+          // تلاش برای پخش موزیک بعد از تعامل کاربر (الزام مرورگرها)
+          const tryPlay = () => {
+            music.play().catch(() => {
+              // اگر کاربر هنوز کلیک نکرده بود
+              const hint = document.createElement("div");
+              hint.innerText = "برای پخش آهنگ اینجا ضربه بزنید 🎵";
+              hint.style = "position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #fff3cd; padding: 15px 25px; border-radius: 12px; font-size: 1.1rem; font-family: Vazir; z-index: 9999;";
+              hint.addEventListener('click', () => {
+                music.play();
+                hint.remove();
+              });
+              document.body.appendChild(hint);
+            });
+          };
+      
+          tryPlay();
+        });
+      </script>
     <script>
         function toPersianNumber(n) {
             return n.toString().replace(/\d/g, d => '۰۱۲۳۴۵۶۷۸۹'[d]);
