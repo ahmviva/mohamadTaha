@@ -1,36 +1,36 @@
 body {
-    font-family: 'Vazir', sans-serif;
-    direction: rtl;
-    background-color: #fff;
-    padding: 10px;
-  }
+  font-family: 'Vazir', sans-serif;
+  direction: rtl;
+  background-color: #fff;
+  padding: 10px;
+}
 
-  .mobile-card {
-    max-width: 400px;
-    margin: auto;
-    border-radius: 15px;
-    background-color: #fff;
-    /*! box-shadow: 0 4px 12px rgb(255, 255, 255); */
-    overflow: hidden;
-    border: 7px solid #ffdbdb;
-    height: 97vh;
-    background-image: url('img/banner-four-right-bg-img.png');
-    background-size: 180%;
-    background-position: center;
-  }
+.mobile-card {
+  max-width: 400px;
+  margin: auto;
+  border-radius: 15px;
+  /*! background-color: #fff; */
+  /*! box-shadow: 0 4px 12px rgb(255, 255, 255); */
+  overflow: hidden;
+  border: 7px solid #ffdbdb;
+  height: 97vh;
+  background-image: url('img/banner-four-right-bg-img.png');
+  background-size: 180%;
+  background-position: center;
+}
 
-  .mobile-card img {
-    width: 100%;
-    height: 100%;
-    /*! object-fit: cover; */
-  }
+.mobile-card img {
+  width: 100%;
+  height: 100%;
+  /*! object-fit: cover; */
+}
 
-  .mobile-card .card-body {
-    padding: 15px;
-    text-align: center;
-  }
+.mobile-card .card-body {
+  padding: 15px;
+  text-align: center;
+}
 
-  .countdown {
+.countdown {
 font-weight: bold;
 font-size: 15px;
 color: #d63384;
@@ -38,101 +38,101 @@ margin: 10px 0;
 font-family: 'Vazir', sans-serif; /* ← این خط رو اضافه کن */
 }
 
-  .btn-sm {
-    font-size: 0.9rem !important;
-    padding: 8px 12px !important;
-  }
+.btn-sm {
+  font-size: 0.9rem !important;
+  padding: 8px 12px !important;
+}
 
-  @media (min-width: 600px) {
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+@media (min-width: 600px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+}
 
-  @media print {
-    .no-print { display: none; }
-  }
+@media print {
+  .no-print { display: none; }
+}
 
-  p {
-    font-size: 14px;
-  }
+p {
+  font-size: 14px;
+}
 
-  
+
 .btn.frameIcnbtn {
-    width: 70px;
-    height: 70px;
-    border: 3px solid #ffcd11;
-    border-radius: 100%;
-    overflow: hidden;
-    display: inline-flex;
-    background: #fffcf7;
-  }
-  .frameIcn {
-    margin: auto;
-    text-align: center;
-  }
-  .bgimg {
-    position: absolute;
-  }
+  width: 70px;
+  height: 70px;
+  border: 3px solid #ffcd11;
+  border-radius: 100%;
+  overflow: hidden;
+  display: inline-flex;
+  background: #fffcf7;
+}
+.frameIcn {
+  margin: auto;
+  text-align: center;
+}
+.bgimg {
+  position: absolute;
+}
 
-  .frameIcntxt {
-    font-size: 12px;
-    width: 100%;
-    display: block;
-  }
+.frameIcntxt {
+  font-size: 12px;
+  width: 100%;
+  display: block;
+}
 
-  .frame2 {
-    background: #ffffffd4;
-    border:
-  2px solid aliceblue;
-    border-radius:
-  20px;
-    padding:
-  5px;
-  }
-  .ddasdasd {
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
+.frame2 {
+  background: #ffffffd4;
+  border:
+2px solid aliceblue;
+  border-radius:
+20px;
+  padding:
+5px;
+}
+.ddasdasd {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
-  .dismao {
-    background:
-  #fffc;
-    border-radius:
-  50px;
-    margin-bottom: 10px;
-  }
+.dismao {
+  background:
+#fffc;
+  border-radius:
+50px;
+  margin-bottom: 10px;
+}
 
-  .socialMedia {
-    width: 50px !important;
-    height: 50px !important;
-  }
-  .btn.adasdsdasd {
-    border:
-  5px solid white;
-    background:
-  #fff5f5;
-    width: 100%;
-  }
+.socialMedia {
+  width: 50px !important;
+  height: 50px !important;
+}
+.btn.adasdsdasd {
+  border:
+5px solid white;
+  background:
+#fff5f5;
+  width: 100%;
+}
 
-  .adasdasdgnfndjk {
-    /*! width: 100%; */
-    /*! display: block; */
-  }
+.adasdasdgnfndjk {
+  /*! width: 100%; */
+  /*! display: block; */
+}
 
-  .dadamoom {
-    background-size: cover;
-    background-color: #ffffffb2;
-    padding:
-  20px;
-    border-radius:
-  20px;
-  }
-  .mtahakdsajd {
-    width: 110px !important;
-    position: absolute;
-    z-index: -1;
-    left: 0px;
-  }
+.dadamoom {
+  background-size: cover;
+  background-color: #ffffffb2;
+  padding:
+20px;
+  border-radius:
+20px;
+}
+.mtahakdsajd {
+  /*! width: 110px !important; */
+  position: absolute;
+  z-index: -1;
+  left: 0px;
+}
