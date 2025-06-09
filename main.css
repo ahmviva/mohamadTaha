@@ -130,3 +130,9 @@ font-family: 'Vazir', sans-serif; /* ← این خط رو اضافه کن */
     border-radius:
   20px;
   }
+  .mtahakdsajd {
+    width: 110px !important;
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+  }
